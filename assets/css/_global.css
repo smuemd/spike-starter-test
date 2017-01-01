@@ -1,0 +1,29 @@
+/* @import 'normalize.css'; */
+
+@import 'mod';
+
+body {
+  /* padding: 50px; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+}
+
+main {
+  width: sizes(2/3) pluck(1);
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  font-size: 0.75rem;
+  background-color: lightblue;
+  generate-grid: columns(100px 1/3 auto);
+
+  & div {
+    background-color: yellow;
+  }
+
+  article {
+    font-size: inherit;
+  }
+}
