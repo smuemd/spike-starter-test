@@ -1,5 +1,7 @@
 # TestSpike
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/smuemd/spike-starter-test.svg)](https://greenkeeper.io/)
+
 This is just a test of spike
 
 ## Setup
